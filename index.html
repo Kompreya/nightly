@@ -4,14 +4,14 @@
 <head>
     <!-- Set Title and Favicon -->
     <title>Home</title>
-    <link rel='icon' href='assets/favicon.svg'>
+    <link rel='icon' href='assets/favicon.png'>
     
     <!-- Load CSS and JS -->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     
     <!-- Load Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Code|Fira+Code:b"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap">
 
     <!-- Load Charset and set correct viewport -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -21,16 +21,17 @@
 <body>
     <div id="apexContainer">
 
-        <div id="headingContainer">(⌐■_■)</div>
+        <div id="headingContainer">Welcome, Kompreya!</div>
 
         <div id="clockContainer">00:00</div>
         
         <ul id="bookmarksContainer">
-            <div class="bookmark" id="b1"><a href="https://github.com" id="aB1"><img src="assets/github.svg" id="imgB1"></a></div>
-            <div class="bookmark" id="b2"><a href="https://web.whatsapp.com" id="aB2"><img src="assets/whatsapp.svg" id="imgB2"></a></div>
-            <div class="bookmark" id="b3"><a href="https://www.youtube.com" id="aB3"><img src="assets/youtube.svg" id="imgB3"></a></div>
-            <div class="bookmark" id="b4"><a href="https://gmail.com" id="aB4"><img src="assets/gmail.svg" id="imgB4"></a></div>
-            <div class="bookmark" id="b5"><img src="assets/settings.svg"></div>
+            <div class="bookmark" id="b1"><a href="https://www.kompreya.com" id="aB1"><img src="assets/paint.svg" id="imgB1"></a></div>
+            <div class="bookmark" id="b2"><a href="https://www.github.com" id="aB2"><img src="assets/github.svg" id="imgB2"></a></div>
+            <div class="bookmark" id="b3"><a href="https://www.gmail.com" id="aB3"><img src="assets/mail.svg" id="imgB3"></a></div>
+            <div class="bookmark" id="b4"><a href="https://calendar.google.com/calendar/u/0/r" id="aB4"><img src="assets/calendar.svg" id="imgB4"></a></div>
+            <div class="bookmark" id="b5"><a href="https://www.navyfederal.org/" id="aB5"><img src="assets/bank.svg" id="imgB5"></a></div>
+            <div class="bookmark" id="b6"><a href="https://www.youtube.com" id="aB6"><img src="assets/youtube.svg" id="imgB6"></a></div>
         </ul>
 
         <div id="settingsContainer" style="display: none;">
@@ -43,15 +44,15 @@
             </div>
             
             <div id="headingSettingsContainer" style="display: grid;">
-                <div>Content <input type="text" class="inputField" id="headingContentSetting" value="(⌐■_■)"></div>
-                <div>Color <input type="text" class="inputField" id="headingColorSetting" value="#FFF"></div>
-                <div>Font <input type="text" class="inputField" id="headingFontSetting" value="Fira Code"></div>
+                <div>Content <input type="text" class="inputField" id="headingContentSetting" value="Welcome, Kompreya!"></div>
+                <div>Color <input type="text" class="inputField" id="headingColorSetting" value="#F8F9FA"></div>
+                <div>Font <input type="text" class="inputField" id="headingFontSetting" value="Lexend"></div>
                 <div>Font Size <input type="range" class="inputRange" id="headingFontSizeSetting" min="1" max="10" value="2"></div> 
             </div>
             
             <div id="clockSettingsContainer" style="display: none;">
-                <div>Color <input type="text" class="inputField" id="clockColorSetting" value="#FFF"></div>
-                <div>Font <input type="text" class="inputField" id="clockFontSetting" value="Fira Code"></div>
+                <div>Color <input type="text" class="inputField" id="clockColorSetting" value="#F8F9FA"></div>
+                <div>Font <input type="text" class="inputField" id="clockFontSetting" value="Lexend"></div>
                 <div>Font Size <input type="range" class="inputRange" id="clockFontSizeSetting"  min="1" max="20" value="10"></div>
                 <div>Line Height <input type="range" class="inputRange" id="clockLineHeightSetting"  min="1" max="20" value="12"></div>
             </div>
@@ -68,7 +69,7 @@
             </div>
             
             <div id="generalSettingsContainer" style="display: none;">
-                <div>Background <input type="url" class="inputField" id="generalBackgroundSetting" value="assets/calvin.jpg"></div>
+                <div>Background <input type="url" class="inputField" id="generalBackgroundSetting" value="assets/whimsicott.jpg"></div>
                 <div>Settings Icon <input type="text" class="inputField" id="generalSettingsIconSetting" value="assets/settings.jpg"></div>
                 <div>Blur Intensity <input type="range" class="inputRange" id="generalBlurIntensitySetting" min="1" max="15" value="5"></div>
             </div>
